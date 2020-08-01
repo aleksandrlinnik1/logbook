@@ -1,0 +1,9 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: gray;
+  font-size: 20px;
+  padding: 20px 10px;
+}

@@ -1,0 +1,14 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+.container {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+button:focus, button:active {
+  outline:none;
+}

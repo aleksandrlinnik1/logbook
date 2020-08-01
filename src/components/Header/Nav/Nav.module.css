@@ -1,0 +1,6 @@
+.nav {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  box-sizing: border-box;
+}

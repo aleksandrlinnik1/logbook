@@ -1,0 +1,56 @@
+.addJob {
+  font-size: 20px;
+  color: gray;
+  width: 100%;
+}
+.addJob input {
+  height: 30px;
+  margin-right: 20px;
+  box-sizing: border-box;
+}
+.addJob button {
+  height: 30px;
+}
+.formAddJob {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+}
+.formAddJob label {
+  display: flex;
+  margin-bottom: 20px;
+}
+.formAddJob label input {
+  width: 350px;
+}
+.formAddJob label input:focus {
+  outline: none;
+}
+.formAddJob label textarea:focus {
+  outline: none;
+}
+.formAddJob label p {
+  margin: 0;
+  width: 200px;
+}
+.errorInput {
+  border: 1px solid red;
+}
+.validInput {
+  border: 1px solid green;
+}
+.formAddJob button {
+  margin-top: 20px;
+  width: 200px;
+  height: 35px;
+  font-size: 18px;
+  background-color: rgb(204, 0, 51);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.formAddJob label textarea {
+  width: 400px;
+  height: 100px;
+}

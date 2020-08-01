@@ -1,0 +1,19 @@
+.item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+
+}
+.item a {
+  padding-top: 15px;
+  box-sizing: border-box;
+  text-decoration: none;
+  height: 100%;
+  color: white;
+  margin: 0 10px;
+}
+.item a.activeLink {
+  border-bottom: 6px solid rgb(204,0,51);
+  height: 100%;
+}
