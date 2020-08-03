@@ -12,3 +12,6 @@ body {
 button:focus, button:active {
   outline:none;
 }
+.wrapper {
+  min-width: 1200px;
+}

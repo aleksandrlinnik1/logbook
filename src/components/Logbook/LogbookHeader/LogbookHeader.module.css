@@ -1,0 +1,63 @@
+/*logbookHeader*/
+
+.logbookHeader {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.divAdd {
+  box-sizing: border-box;
+  background-color: rgb(204,0,51);
+  border-radius: 5px;
+  padding: 5px 25px;
+}
+.addBtn {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+.search {
+  width: 200px;
+  height: 33px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 2px solid gray;
+  padding: 0 10px;
+}
+.count {
+  color: rgb(204,0,51);
+  font-size: 20px;
+  border-bottom: 2px solid rgb(204,0,51);
+}
+.sort {
+  display: flex;
+  align-items: center;
+  color: rgb(204,0,51);
+  font-size: 20px;
+}
+.sort p {
+  margin-right: 5px;
+}
+.sortBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(204,0,51);
+  border: none;
+  margin: 0 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.arrowDown {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 5px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}

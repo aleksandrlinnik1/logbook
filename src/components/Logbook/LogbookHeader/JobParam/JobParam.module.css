@@ -1,0 +1,21 @@
+/*item parameters*/
+
+.jobParam {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  margin-bottom: 15px;
+  background-color: rgb(204,0,51);
+  color: white;
+  height: 30px;
+  padding: 0 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.jobParamName {
+  width: 30%;
+}
+.jobParamItem {
+  text-align: center;
+  width: 30%;
+}
